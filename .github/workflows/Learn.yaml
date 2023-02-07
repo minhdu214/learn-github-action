@@ -10,8 +10,15 @@ on:
     - 'release/**'
     - '!dev/**'
     workflow_dispatch:
-jobs: 
-  say-hello:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo Hello world
+jobs:    
+  build:       
+   runs-on: windows-latest       
+   steps:        
+   - name: Checkout            
+      uses: actions/checkout@v2.2        
+   - name: Katalon Studio Github Action            
+      uses: katalon-studio/katalon-studio-github-action@v2            
+      with:                    
+        version: ‘8.5.0’                    
+        projectPath: '${{ github.workspace }}'                    
+        args: '-noSplash -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="f159bc35-aa81-4559-8a30-e7c47f8994a0" --config -webui.autoUpdateDrivers=true'
