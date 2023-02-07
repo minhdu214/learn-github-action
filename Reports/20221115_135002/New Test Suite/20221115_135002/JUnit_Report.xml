@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="61.777" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="61.777" skipped="0" timestamp="2022-11-15 13:50:10" hostname="duc.phan - JGBW2D3" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20221115_135002\\New Test Suite\\20221115_135002"/>
+         <property name="logFiles" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20221115_135002\\New Test Suite\\20221115_135002\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="duc.phan - JGBW2D3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;browserVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Users\\ContainerUser\\AppData\\Local\\Temp\\scoped_dir17784_2143440191&quot;
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49326&quot;
+  },
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJkYW5pLnBoYW4yQGdtYWlsLmNvbSIsInVwbiI6IjEwNTU0NDciLCJncm91cHMiOlsiVVNFUiJdLCJzdGF0dXMiOiJWRVJJRklFRCIsImdpdmVuX25hbWUiOiJEYW5pIiwiZmFtaWx5X25hbWUiOiIiLCJlbWFpbCI6ImRhbmkucGhhbjJAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImNyZWF0ZWRfYXQiOjE2NjQ4NTI5NzksInVwZGF0ZWRfYXQiOjE2Njg0OTM4NDUsImFtciI6WyJwd2QiXSwiaWF0IjoxNjY4NDkzOTM4LCJleHAiOjE2NjkwOTg3MzgsImp0aSI6IjdhYmM5ZjgxLTBmYzItNGRjYi1hYzQzLTJjN2ExNjhmMjIwMCIsImlzcyI6ImthdGFsb24tYXV0aCJ9.VNEH_YD0UFZaCWUQoPaekX0FVO_6MYE4BfF_33tc5VmCCxGc-XGaN17mAdP_Jy54c0xtw30xBkBUeY_-ovBTPEcFrN3l6mXEaFk2baLyUIJwQE04h88L3Jgoc4NPUMj4ACz65OrcIVQM7SBxIIqtRcIaU_oDB636KTwaI5eO1qpbdQJ-OfA6J954XRA7ujLYChCjU7xSE85mJhh-RwLY1GyeP6iIA3DF1N3WE3CdyVb6oToLpaJhQE1Ev52YZ9BAoQK2i8Il2mc81sXg1E0YHpcGKYzgVG7lUtQwRiXH-4YsIZhovZnrnU2PV5gEe51i257zXu-_gmZPaxzvesg64g&quot;,
+    &quot;userId&quot;: 1055447,
+    &quot;organizationId&quot;: &quot;692154&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;dani.phan2@gmail.com&quot;
+  },
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;01655f95-903a-4e24-a984-34533782c4fd&quot;,
+  &quot;se:cdp&quot;: &quot;ws://172.48.80.57:4444/session/f94dc2a888b2ea01dd22bc17486ea7ff/se/cdp&quot;,
+  &quot;se:cdpVersion&quot;: &quot;103.0.5060.53&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.53"/>
+         <property name="hostAddress" value="10.10.33.228"/>
+         <property name="sessionId" value="f94dc2a888b2ea01dd22bc17486ea7ff"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="60.922" classname="Test Cases/New Test Case" status="PASSED">
+         <system-out><![CDATA[2022-11-15 13:50:10 - [TEST_CASE][PASSED] - Test Cases/New Test Case: Test Cases/New Test Case
+
+2022-11-15 13:50:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-11-15 13:50:12 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2022-11-15 13:50:12 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2022-11-15 13:50:12 - [MESSAGE][INFO] - User set preference: ['browserVersion', '103']
+
+2022-11-15 13:50:12 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=692154, tunnelId=, usingTunnel=false}']
+
+2022-11-15 13:50:12 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-11-15 13:50:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-11-15 13:51:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-11-15 13:51:08 - [TEST_STEP][PASSED] - navigateToUrl("google.com"): Navigate to 'http://google.com' successfully
+
+2022-11-15 13:51:11 - [MESSAGE][PASSED] - Navigate to 'http://google.com' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-15 13:50:10 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/New Test Case]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

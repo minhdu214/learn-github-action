@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="56.024" tests="1" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="1" errors="0" time="56.024" skipped="0" timestamp="2023-01-11 15:10:30" hostname="duc.phan - JGBW2D3" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20230111_150918\\New Test Suite\\20230111_151026"/>
+         <property name="logFiles" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20230111_150918\\New Test Suite\\20230111_151026\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20230111_150918\\New Test Suite\\20230111_151026\\1673424686233.png"/>
+         <property name="hostName" value="duc.phan - JGBW2D3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="172.16.16.183"/>
+         <property name="sessionId" value="c75acaef0197206a7b1528485179458f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/New Test Case" time="55.644" classname="Test Cases/New Test Case" status="FAILED">
+         <failure type="FAILED" message="Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2023-01-11 15:10:30 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2023-01-11 15:10:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-11 15:10:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-11 15:10:32 - [MESSAGE][INFO] - User set preference: ['args', '[--no-sandbox, --disable-dev-shm-usage, --disable-gpu, --disable-extensions]']
+
+2023-01-11 15:10:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-11 15:10:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-11 15:10:35 - [TEST_STEP][PASSED] - navigateToUrl("https://www.w3schools.com/howto/howto_html_file_upload_button.asp"): Navigate to 'https://www.w3schools.com/howto/howto_html_file_upload_button.asp' successfully
+
+2023-01-11 15:10:51 - [MESSAGE][PASSED] - Navigate to 'https://www.w3schools.com/howto/howto_html_file_upload_button.asp' successfully
+
+2023-01-11 15:10:51 - [TEST_STEP][FAILED] - click(findTestObject("Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con"), STOP_ON_FAILURE): Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667406162061.run(Script1667406162061.groovy:24)
+	... 13 more
+)
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='rso']/div[2]/div/div/div/div/a/h3'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-11 15:11:23 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'. Try using Self-healing.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='rso']/div[2]/div/div/div/div/a/h3'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Xem tất cả'])[2]/following::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Phản hồi'])[1]/following::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='› dat-ten-cho-con-phan+minh+đ...'])[1]/preceding::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con']/parent::*'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a/h3'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h3[(text() = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con' or . = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con')]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='rso']/div[2]/div/div/div/div/a/h3'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Xem tất cả'])[2]/following::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Phản hồi'])[1]/following::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='› dat-ten-cho-con-phan+minh+đ...'])[1]/preceding::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con']/parent::*'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a/h3'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h3[(text() = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con' or . = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con')]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//div[@id='rso']/div[2]/div/div/div/div/a/h3'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Xem tất cả'])[2]/following::h3[1]'.
+
+2023-01-11 15:11:23 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='Phản hồi'])[1]/following::h3[1]'.
+
+2023-01-11 15:11:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '(.//*[normalize-space(text()) and normalize-space(.)='› dat-ten-cho-con-phan+minh+đ...'])[1]/preceding::h3[1]'.
+
+2023-01-11 15:11:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//*/text()[normalize-space(.)='Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con']/parent::*'.
+
+2023-01-11 15:11:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//a/h3'.
+
+2023-01-11 15:11:24 - [MESSAGE][INFO] - [SELF-HEALING] Failed Locator: '//h3[(text() = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con' or . = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con')]'.
+
+2023-01-11 15:11:25 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[(text() = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con' or . = 'Tên Phan Minh Đức ý nghĩa gì, tốt hay xấu? - Xem tên con')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-11 15:11:26 - [MESSAGE][INFO] - Unable to find the element located by 'By.cssSelector: h3.LC20lb.MBeuO.DKV0Md'. Please recheck the objects properties to make sure the desired element is located. 
+
+2023-01-11 15:11:26 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1667406162061.run(Script1667406162061.groovy:24)
+	... 13 more
+)
+[[ATTACHMENT|C:\\Users\\duc.phan\\git\\Halo\\Reports\\20230111_150918\\New Test Suite\\20230111_151026\\1673424686233.png]]]]></system-out>
+         <system-err><![CDATA[2023-01-11 15:10:30 - [TEST_CASE][FAILED] - Test Cases/New Test Case: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-11 15:10:30 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2023-01-11 15:10:30 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/New Test Case FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:608)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at New Test Case.run(New Test Case:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1673424626889.run(TempTestSuite1673424626889.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con' located by '//div[@id='rso']/div[2]/div/div/div/div/a/h3' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

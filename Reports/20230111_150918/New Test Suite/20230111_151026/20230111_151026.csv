@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 108.0.0.0,,,2023-01-11 15:10:30,2023-01-11 15:11:26,56.024s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Chrome 108.0.0.0,,,2023-01-11 15:10:30,2023-01-11 15:11:26,55.644s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2023-01-11 15:10:31,2023-01-11 15:10:35,3.878s,PASSED
+"navigateToUrl(""https://www.w3schools.com/howto/howto_html_file_upload_button.asp"")",Chrome 108.0.0.0,,,2023-01-11 15:10:35,2023-01-11 15:10:51,16.395s,PASSED
+"click(findTestObject(""Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con""), STOP_ON_FAILURE)",Chrome 108.0.0.0,,,2023-01-11 15:10:51,2023-01-11 15:11:26,34.814s,FAILED

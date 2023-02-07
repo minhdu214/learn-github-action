@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test take area screenshot,Chrome 102.0.5005.115,,,2022-09-29 16:58:27,2022-09-29 16:58:34,6.865s,PASSED
+,,,,,,,
+Test Cases/Test,Chrome 102.0.5005.115,,,2022-09-29 16:58:28,2022-09-29 16:58:34,6.591s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-09-29 16:58:28,2022-09-29 16:58:31,2.519s,PASSED
+"navigateToUrl(""google.com"")",Chrome 102.0.5005.115,,,2022-09-29 16:58:31,2022-09-29 16:58:34,3.421s,PASSED
+"takeAreaScreenshot(getReportFolder() + ""/advertisements.png"", new org.openqa.selenium.Rectangle(50, 25, 100, 150))",Chrome 102.0.5005.115,,,2022-09-29 16:58:34,2022-09-29 16:58:34,0.271s,PASSED

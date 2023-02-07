@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="5.769" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="5.769" skipped="0" timestamp="2022-11-07 15:38:09" hostname="duc.phan - host.docker.internal" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20221107_153806\\New Test Suite\\20221107_153806"/>
+         <property name="logFiles" value="C:\\Users\\duc.phan\\git\\Halo\\Reports\\20221107_153806\\New Test Suite\\20221107_153806\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="duc.phan - host.docker.internal"/>
+         <property name="hostAddress" value="10.10.34.86"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+      </properties>
+      <testcase name="Test Cases/test bath file" time="5.535" classname="Test Cases/test bath file" status="PASSED">
+         <system-out><![CDATA[2022-11-07 15:38:09 - [TEST_CASE][PASSED] - Test Cases/test bath file: Test Cases/test bath file
+
+2022-11-07 15:38:09 - [TEST_STEP][PASSED] - cmd = "cmd /c start C:\Users\duc.phan\git\Halo\TEST.bat": null
+
+2022-11-07 15:38:09 - [TEST_STEP][PASSED] - getRuntime().exec(cmd): null
+
+2022-11-07 15:38:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-11-07 15:38:14 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-11-07 15:38:09 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/test bath file]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

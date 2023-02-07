@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test take area screenshot" time="12.204" tests="1" failures="0" errors="0">
+   <testsuite name="Test take area screenshot" tests="1" failures="0" errors="0" time="12.204" skipped="0" timestamp="2022-09-29 17:03:27" hostname="duc.phan - JGBW2D3" id="Test Suites/Test take area screenshot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\duc.phan\\git\\Halo Halo\\Reports\\20220929_170323\\Test take area screenshot\\20220929_170324"/>
+         <property name="logFiles" value="C:\\Users\\duc.phan\\git\\Halo Halo\\Reports\\20220929_170323\\Test take area screenshot\\20220929_170324\\execution0.log"/>
+         <property name="attachments" value="C:\Users\duc.phan\git\Halo Halo\Reports\20220929_170323\Test take area screenshot\20220929_170324/advertisements.png"/>
+         <property name="hostName" value="duc.phan - JGBW2D3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.10.34.201"/>
+         <property name="sessionId" value="923b3817723140c38ea8100ef3b3f53a"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test" time="11.908" classname="Test Cases/Test" status="PASSED">
+         <system-out><![CDATA[2022-09-29 17:03:27 - [TEST_CASE][PASSED] - Test Cases/Test: Test Cases/Test
+
+2022-09-29 17:03:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-29 17:03:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-29 17:03:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-29 17:03:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-29 17:03:30 - [TEST_STEP][PASSED] - navigateToUrl("google.com"): Navigate to 'http://google.com' successfully
+
+2022-09-29 17:03:32 - [MESSAGE][PASSED] - Navigate to 'http://google.com' successfully
+
+2022-09-29 17:03:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.google.com/?gws_rd=ssl"): Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-09-29 17:03:32 - [MESSAGE][PASSED] - Navigate to 'https://www.google.com/?gws_rd=ssl' successfully
+
+2022-09-29 17:03:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Google/input__q"), "tiki"): Text 'tiki' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-09-29 17:03:33 - [MESSAGE][PASSED] - Text 'tiki' is set on object 'Object Repository/Page_Google/input__q'
+
+2022-09-29 17:03:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Page_Google/input__q"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2022-09-29 17:03:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_Google/input__q'
+
+2022-09-29 17:03:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_tiki - Tm trn Google/span_TIKI  Mua Sm Trc Tuyn - Giao Nhanh - N_8ec7ff")): Object: 'Object Repository/Page_tiki - Tm trn Google/span_TIKI  Mua Sm Trc Tuyn - Giao Nhanh - N_8ec7ff' is clicked on
+
+2022-09-29 17:03:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_tiki - Tm trn Google/span_TIKI  Mua Sm Trc Tuyn - Giao Nhanh - N_8ec7ff' is clicked on
+
+2022-09-29 17:03:38 - [TEST_STEP][PASSED] - takeAreaScreenshot(getReportFolder() + "/advertisements.png", new org.openqa.selenium.Rectangle(50, 25, 100, 150)): Taking screenshot successfully
+
+2022-09-29 17:03:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-09-29 17:03:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\duc.phan\git\Halo Halo\Reports\20220929_170323\Test take area screenshot\20220929_170324/advertisements.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-29 17:03:27 - [TEST_SUITE][PASSED] - Test take area screenshot: Test Cases/Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test take area screenshot" time="5.517" tests="1" failures="0" errors="0">
+   <testsuite name="Test take area screenshot" tests="1" failures="0" errors="0" time="5.517" skipped="0" timestamp="2022-09-29 16:57:17" hostname="duc.phan - JGBW2D3" id="Test Suites/Test take area screenshot">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\duc.phan\\git\\Halo Halo\\Reports\\20220929_165714\\Test take area screenshot\\20220929_165714"/>
+         <property name="logFiles" value="C:\\Users\\duc.phan\\git\\Halo Halo\\Reports\\20220929_165714\\Test take area screenshot\\20220929_165714\\execution0.log"/>
+         <property name="attachments" value="C:\Users\duc.phan\git\Halo Halo\Reports\20220929_165714\Test take area screenshot\20220929_165714/advertisements.png"/>
+         <property name="hostName" value="duc.phan - JGBW2D3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 102.0.5005.115"/>
+         <property name="hostAddress" value="10.10.34.201"/>
+         <property name="sessionId" value="7eeee1ab21da8ffaeb42f1c46dafde5e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test" time="5.229" classname="Test Cases/Test" status="PASSED">
+         <system-out><![CDATA[2022-09-29 16:57:17 - [TEST_CASE][PASSED] - Test Cases/Test: Test Cases/Test
+
+2022-09-29 16:57:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-09-29 16:57:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-09-29 16:57:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-09-29 16:57:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-09-29 16:57:21 - [TEST_STEP][PASSED] - navigateToUrl("google.com"): Navigate to 'http://google.com' successfully
+
+2022-09-29 16:57:22 - [MESSAGE][PASSED] - Navigate to 'http://google.com' successfully
+
+2022-09-29 16:57:22 - [TEST_STEP][PASSED] - takeAreaScreenshot(getReportFolder() + "/advertisements.png", new org.openqa.selenium.Rectangle(50, 25, 100, 150)): Taking screenshot successfully
+
+2022-09-29 16:57:23 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-09-29 16:57:23 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\Users\duc.phan\git\Halo Halo\Reports\20220929_165714\Test take area screenshot\20220929_165714/advertisements.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-09-29 16:57:17 - [TEST_SUITE][PASSED] - Test take area screenshot: Test Cases/Test]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

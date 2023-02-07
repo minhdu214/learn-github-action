@@ -1,0 +1,86 @@
+{
+  "keywordFileContentHash": "618D43E064029D8021DE5A135FFB89CE",
+  "keywordClasses": [
+    {
+      "name": "test.test",
+      "keywordMethods": [
+        {
+          "name": "authenticate",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "userName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "password",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "timeout",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    },
+    {
+      "name": "test.test$1",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

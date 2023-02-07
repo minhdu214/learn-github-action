@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 109.0.0.0,,,2023-02-02 15:58:13,2023-02-02 15:59:04,50.927s,FAILED
+,,,,,,,
+Test Cases/New Test Case,Chrome 109.0.0.0,,,2023-02-02 15:58:13,2023-02-02 15:59:04,50.656s,FAILED
+Start listener action : enableSauceLabs,Chrome 109.0.0.0,,,2023-02-02 15:58:13,2023-02-02 15:58:13,0.020s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-02-02 15:58:14,2023-02-02 15:58:18,4.458s,PASSED
+"navigateToUrl(""https://www.w3schools.com/howto/howto_html_file_upload_button.asp"")",Chrome 109.0.0.0,,,2023-02-02 15:58:18,2023-02-02 15:58:29,10.910s,PASSED
+"verifyElementNotPresent(findTestObject(""Object Repository/Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con""), 1)",Chrome 109.0.0.0,,,2023-02-02 15:58:29,2023-02-02 15:58:29,0.270s,PASSED
+"click(findTestObject(""Page_Phan Minh c p trai - Tm trn Google/h3_Tn Phan Minh c  ngha g, tt hay xu - Xem tn con""), STOP_ON_FAILURE)",Chrome 109.0.0.0,,,2023-02-02 15:58:29,2023-02-02 15:59:04,34.634s,FAILED
+Start listener action : autoUpdateJobStatus,Chrome 109.0.0.0,,,2023-02-02 15:59:04,2023-02-02 15:59:04,0.001s,PASSED

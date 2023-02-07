@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "BF35507F29B51907FC7236752864B10F",
+  "keywordClasses": [
+    {
+      "name": "nono.helo",
+      "keywordMethods": [
+        {
+          "name": "killBrowser",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Refresh browser\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

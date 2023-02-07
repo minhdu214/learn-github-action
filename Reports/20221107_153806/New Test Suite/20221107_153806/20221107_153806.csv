@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-11-07 15:38:09,2022-11-07 15:38:14,5.769s,PASSED
+,,,,,,,
+Test Cases/test bath file,,,,2022-11-07 15:38:09,2022-11-07 15:38:14,5.535s,PASSED
+"cmd = ""cmd /c start C:\Users\duc.phan\git\Halo\TEST.bat""",,,,2022-11-07 15:38:09,2022-11-07 15:38:09,0.003s,PASSED
+getRuntime().exec(cmd),,,,2022-11-07 15:38:09,2022-11-07 15:38:09,0.063s,PASSED
+delay(5),,,,2022-11-07 15:38:09,2022-11-07 15:38:14,5.133s,PASSED

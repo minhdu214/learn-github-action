@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test take area screenshot,Chrome 102.0.5005.115,,,2022-09-29 18:43:12,2022-09-29 18:43:23,11.720s,PASSED
+,,,,,,,
+Test Cases/Test,Chrome 102.0.5005.115,,,2022-09-29 18:43:12,2022-09-29 18:43:23,11.397s,PASSED
+"openBrowser("""")",Chrome 102.0.5005.115,,,2022-09-29 18:43:12,2022-09-29 18:43:15,2.717s,PASSED
+"navigateToUrl(""google.com"")",Chrome 102.0.5005.115,,,2022-09-29 18:43:15,2022-09-29 18:43:19,3.490s,PASSED
+"navigateToUrl(""https://www.google.com/?gws_rd=ssl"")",Chrome 102.0.5005.115,,,2022-09-29 18:43:19,2022-09-29 18:43:19,0.394s,PASSED
+"setText(findTestObject(""Object Repository/Page_Google/input__q""), ""tiki"")",Chrome 102.0.5005.115,,,2022-09-29 18:43:19,2022-09-29 18:43:19,0.377s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Google/input__q""), Keys.chord(ENTER))",Chrome 102.0.5005.115,,,2022-09-29 18:43:19,2022-09-29 18:43:20,1.134s,PASSED
+"click(findTestObject(""Object Repository/Page_tiki - Tm trn Google/span_TIKI  Mua Sm Trc Tuyn - Giao Nhanh - N_8ec7ff""))",Chrome 102.0.5005.115,,,2022-09-29 18:43:20,2022-09-29 18:43:22,1.588s,PASSED
+"takeAreaScreenshot(getReportFolder() + ""/advertisements.png"", new org.openqa.selenium.Rectangle(50, 25, 100, 150))",Chrome 102.0.5005.115,,,2022-09-29 18:43:22,2022-09-29 18:43:23,1.225s,PASSED
