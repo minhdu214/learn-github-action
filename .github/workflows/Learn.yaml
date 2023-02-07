@@ -9,16 +9,24 @@ on:
     - 'main'
     - 'release/**'
     - '!dev/**'
-    workflow_dispatch:
+    workflow_dispatchs:
 jobs:    
   build:       
    runs-on: windows-latest       
    steps:        
    - name: Checkout            
+<<<<<<< HEAD
       uses: actions/checkout@v2.1        
    - name: Katalon Studio Github Action            
       uses: katalon-studio/katalon-studio-github-action@v2            
       with:                    
       version: '8.5.0'                    
+=======
+     uses: actions/checkout@v2.2        
+   - name: Katalon Studio Github Action            
+     uses: katalon-studio/katalon-studio-github-action@v2            
+     with:                    
+        version: '8.5.0'                    
+>>>>>>> d1d1f4934c72230d2b25a5475d2fa7d8fe8047d6
         projectPath: '${{ github.workspace }}'                    
         args: '-noSplash -retry=0 -testSuitePath="Test Suites/New Test Suite" -browserType="Chrome" -executionProfile="default" -apiKey="f159bc35-aa81-4559-8a30-e7c47f8994a0" --config -webui.autoUpdateDrivers=true'
